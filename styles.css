@@ -345,6 +345,12 @@
     background: #111;
   }
   
+  .hash,
+  .projects {
+    color: #fff;
+    background: #111;
+  }
+  
   .services .title::before,
   .projects .title::before {
     background: #fff;
@@ -353,9 +359,13 @@
   .nss .title::after,
   .projects .title::after {
     background: #ffffff;
-    content: "Nartional Service Scheme";
+    content: "National Service Scheme";
   }
-  
+  .conf .title::after,
+  .projects .title::after {
+    background: #ffffff;
+    content: "External Efforts";
+  }
   .services .title::after,
   .projects .title::after {
     background: #111;
